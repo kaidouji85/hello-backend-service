@@ -1,0 +1,11 @@
+{
+  "name": "hello-backend-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "git init",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
