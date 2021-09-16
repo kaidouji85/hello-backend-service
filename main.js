@@ -20,9 +20,10 @@ function wait(ms) {
  */
 async function main() {
   const now = () => new Date().toString();
-  console.log(`${now()} start`);
+  console.log(`${now()} start main function`);
   await wait(1000);
-  console.log(`${now()} end`);
+  console.log(`${now()} end main function`);
+  console.log(`${'-'.repeat(100)}`);
 }
 
 (async () => {
